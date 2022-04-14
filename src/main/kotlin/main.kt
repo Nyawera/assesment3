@@ -1,17 +1,14 @@
 
 
     fun main(){
-        var myAccount=CurrentAccount("000574634","Nyawera",120000.0)
+        var myAccount=CurrentAccount("6767767","Nyawera",120000.0)
         myAccount.deposit(5000.0)
         myAccount.withdraw(100.5)
 
 
-        var mySavingsAccount=SavingsAccount("000475663","Tut",90000.5,5)
-        mySavingsAccount.deposit(3000.5)
-        mySavingsAccount.withdraw(1000.5)
-        println( mySavingsAccount.withdrawals)
-
-
+        var mySavingsAccount=SavingsAccount("980898998","Tut",90000.5,7)
+        mySavingsAccount.deposit(8000.5)
+        mySavingsAccount.withdraw(5000.5)
 
         var sanitaries=Product("soap",50.0,1000.5,"hygiene")
         var school=Product("pen",5.5,30.5,"other")
