@@ -4,13 +4,13 @@
         var myAccount=CurrentAccount("000574634","Nyawera",120000.0)
         myAccount.deposit(5000.0)
         myAccount.withdraw(100.5)
-        myAccount.details()
+
 
         var mySavingsAccount=SavingsAccount("000475663","Tut",90000.5,5)
         mySavingsAccount.deposit(3000.5)
         mySavingsAccount.withdraw(1000.5)
         println( mySavingsAccount.withdrawals)
-        mySavingsAccount.details()
+
 
 
         var sanitaries=Product("soap",50.0,1000.5,"hygiene")
